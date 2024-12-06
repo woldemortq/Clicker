@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+  display: flex; /* Используем Flexbox для контейнера */
+  flex-direction: column; /* Располагаем элементы по вертикали */
+  align-items: center; /* Центрируем элементы по горизонтали */
+  margin: 0; /* Убираем отступы */
+  right:35% ;
+  padding: 0; /* Убираем внутренние отступы */
+}
+
+.carrot {
+  width: 35%; /* Ширина изображения */
+  cursor: pointer; /* Добавляем указатель при наведении на изображение */
+  transition: transform 0.1s ease; /* Плавный переход для transform */
+  animation: rotate 2s linear infinite;
+}
+
+.carrot:active {
+  transform: scale(0.8); /* Применяем масштабирование */
+  animation: infinite;
+}

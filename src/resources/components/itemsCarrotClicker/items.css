@@ -1,0 +1,15 @@
+.shop-items {
+    position: relative;
+    left: 80%;
+    margin: 1%; 
+    width: 35%;
+    padding: 0 15px 0 15px;
+    text-align: start;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-items:hover {
+    background-color: #696969;
+}
